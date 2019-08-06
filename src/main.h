@@ -8,23 +8,23 @@
 
 #define LORA_NAME_LENGTH 6
 
-#define SERIAL_PIN_TX 23
-#define SERIAL_PIN_RX 17
+#define SERIAL_PIN_TX 26
+#define SERIAL_PIN_RX 25
 
 #define LORA_PERF_MODE 0
 
 #define LORA_NODES_MIN 2
 #define LORA_NODES_MAX 4
 
-#define LED 2
+#define LED 22
 #define IO_LEDBLINK_DURATION 160
 
-#define SCK 5 // GPIO5 - SX1278's SCK
+#define SCK 18 // GPIO5 - SX1278's SCK
 #define MISO 19 // GPIO19 - SX1278's MISO
-#define MOSI 27 // GPIO27 - SX1278's MOSI
-#define SS 18 // GPIO18 - SX1278's CS
-#define RST 14 // GPIO14 - SX1278's RESET
-#define DI0 26 // GPIO26 - SX1278's IRQ (interrupt request)
+#define MOSI 23 // GPIO27 - SX1278's MOSI
+#define SS 5 // GPIO18 - SX1278's CS
+#define RST 21 // GPIO14 - SX1278's RESET
+#define DI0 16 // GPIO26 - SX1278's IRQ (interrupt request)
 
 #define HOST_NONE 0
 #define HOST_INAV 1
