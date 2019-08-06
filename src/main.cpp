@@ -317,8 +317,7 @@ void lora_receive(int packetSize) {
 }
 
 void lora_init() {
-
-    SPI.begin(5, 19, 27, 18);
+    SPI.begin(SCK, MISO, MOSI, SS);
     LoRa.setPins(SS, RST, DI0);
 
     if (!LoRa.begin(cfg.lora_frequency)) {
